@@ -9,7 +9,7 @@
 * [Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)
 
 <b>Documentation:</b>
-1. Download all the files in this repository into a folder and remember the folder's path. Note that some parts need to be changed in the <b>app.js</b> file
+1. Download all the files in this repository(except "newsletter-page.png") into a folder and remember the folder's name and path. For example: Newsletter-Signup-Page. Note that some parts need to be changed in the <b>app.js</b> file
 
 1. Create an account on [Mail Chimp](https://mailchimp.com/)
    1. Click the bottom left from the dashboard to be directed to your profile.
@@ -27,8 +27,8 @@
 1. Create an account on [Heroku](https://heroku.com) 
 
 1. Open the Hyper terminal
-    1. Change the directory to the folder you downloaded all the files. 
-    1. For example: `$cd Desktop/Newsletter-signup-page`
+    1. Change the directory to the folder you downloaded all the files using `cd`.
+    1. For example: `$cd Desktop/Newsletter-Signup-Page`
     1. type in  `ls` which means "list". This will list all the files available in the directory. Therefore, the files you downloaded should be the output.
         * For example: signup.html failure.html success.html public/ app.js procfile   
     1. Other useful commands(Case sensitive. Spaces and spelling are important) :
@@ -92,3 +92,4 @@
 * To change the URL name, refer [here](https://devcenter.heroku.com/articles/renaming-apps)
 * You can now share it with others for them to signup for your newsletter and view their emails via Mail Chimp.
 * An alternative for email marketing!
+* There are explanations in the app.js file to have a brief explanation of how each line of codes work.
