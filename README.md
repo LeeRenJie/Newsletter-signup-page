@@ -3,19 +3,24 @@
 ![Image of the Newsletter Signup Page](https://github.com/LeeRenJie/Newsletter-signup-page/blob/main/newsletter-page.png)
 
 <b>Install:</b>
-* [Hyper Terminal as my main terminal](https://hyper.is/)
+* [Hyper Terminal as the main terminal](https://hyper.is/)
 * [Node.js (LTS recommended)](https://nodejs.org/en/)
 * [git](https://git-scm.com/)
 * [Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)
 
 <b>Documentation:</b>
-1. Download all the files in this repository(except "newsletter-page.png") into a folder and remember the folder's name and path. For example: Newsletter-Signup-Page. Note that some parts need to be changed in the <b>app.js</b> file
+1. Download all the files in this repository(except "newsletter-page.png") into a folder and remember the folder's name and path. 
+    * Folder Name Example: Newsletter-Signup-Page. 
+    * Folder Path Example: yourName/Desktop/Newsletter-Signup-Page.
+    * Note that some parts need to be changed in the <b>app.js</b> file
 
 1. Create an account on [Mail Chimp](https://mailchimp.com/)
    1. Click the bottom left from the dashboard to be directed to your profile.
    1. Click extras > API keys
-   1. Click "Create a key". Your key would look like `xxxxxxxxxxxxxxxxxxxx-us7` note that the `us7` is your server name/ID.
-   1. Copy the <b>API Key</b> and <b>Server Name</b> in a safe place. Treat it like a password. (Note that if your API keys are exposed in a public websites Mail Chimp will automatically disable the API key)
+   1. Click "Create a key". 
+      * Your <b>API key</b> would look like `xxxxxxxxxxxxxxxxxxxx-us7` 
+      * Note that the `us7` is your <b>Server Name/ID</b>.
+   1. Copy the <b>API Key</b> and <b>Server Name</b> in a safe place. Treat it like a password. (Note that if your API keys are exposed in public websites, Mail Chimp will automatically disable the API key)
    1. Click on "Audience" > "Manage Audience" > "Settings" 
    1. Scroll down and copy the <b>"Unique ID for audience"</b> and save it somewhere. 
    
@@ -31,7 +36,7 @@
     1. For example: `$cd Desktop/Newsletter-Signup-Page`
     1. type in  `ls` which means "list". This will list all the files available in the directory. Therefore, the files you downloaded should be the output.
         * For example: signup.html failure.html success.html public/ app.js procfile   
-    1. Other useful commands(Case sensitive. Spaces and spelling are important) :
+    1. Other useful commands(Case sensitive. Spaces and spellings are important) :
 
        Description | Command
        ------------ | -------------
@@ -42,19 +47,20 @@
        Clear console (Will not delete commands, just keeping it tidy!) | `clear`
        Removing files |`rm myfile`
  
-1. Make sure node.js and git are installed. Type `node --version` and `git --version` If a version is shown then you have node and git installed.
+1. Make sure node.js and git are installed. Type `node --version` and `git --version`. If a version is shown, then you have node and git installed.
 1. Make sure you are inside the directory. Then we will start by creating a package.json file by initializing [npm](https://www.npmjs.com/).<br> `npm init`
 1. Press Enter for all the default fields.
 1. Next we will be installing modules from npm. (express, mail chimp, and body-parser)
     * `npm install express` or `npm i express` (Both the same)
     * `npm install @mailchimp/mailchimp_marketing`
     * `npm install body-parser`
-    * `npm install -g nodemon` (You can run on the local host with [nodemon](https://nodemon.io) so that the server restarts itself each time you make a change to your files)
-         * In the hyper terminal >>> `nodemon app.js`
+    * `npm install -g nodemon` (You can send your files on the local host with [nodemon](https://nodemon.io). The server restarts itself each time you make a change to your files)
+         * In the hyper terminal type `nodemon app.js`
          * It should log "server running at port 3000"
          * Go to your browser and type localhost:3000 to see the page.
          * You can change the image of the signup page. (redirect the path to your image. Make sure it is in the images file in the public folder)
          * You can change the design. (I used bootstrap 4 for the design. Read the [documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/) and edit)
+    
     * You should see this in your package.json file:
     ```javascript
       "dependencies": {
@@ -63,6 +69,7 @@
          "express": "^4.17.1",
          }
     ```
+    
 1. Run the files on a local server to check if it works:
     * run `nodemon app.js` in Hyper terminal
     * In browser type localhost:3000
@@ -80,6 +87,7 @@
  1. Run `git commit -m "Type anything here as a description"` and all the files will be committed 
  1. Run `heroku create`
      * You should see a link `https://Random-website-name.herokuapp.com/` in blue. Click it and you will see "Heroku | Welcome to your new app". This shows that you have succeeded.
+     
 1. Run `git push heroku master` to push your files to the heroku.
 1. Refresh the page from the link just now or head to your heroku dashboard and click on "open app" 
 1. You should see the signup form.
