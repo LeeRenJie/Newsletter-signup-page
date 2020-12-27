@@ -92,7 +92,7 @@
 1. Refresh the page from the link just now or head to your heroku dashboard and click on "open app" 
 1. You should see the signup form.
 1. Test the form by inputting and checking mail chimp again.
-1. If it appears <b>CONGRATULATIONS!</b> You have successfully created the page and hosted it on the worldwide web.
+1. If the record appears on Mail Chimp, <b>CONGRATULATIONS!</b> You have successfully created the page and hosted it on the worldwide web.
 
 <hr> 
 
