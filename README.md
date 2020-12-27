@@ -101,3 +101,4 @@
 * You can now share it with others for them to signup for your newsletter and view their emails via Mail Chimp.
 * An alternative for email marketing!
 * There are explanations in the app.js file to have a brief explanation of how each line of codes work.
+* You can change the texts in the HTML file in between the opening and closing tags.
