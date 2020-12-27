@@ -102,3 +102,6 @@
 * An alternative for email marketing!
 * There are explanations in the app.js file to have a brief explanation of how each line of codes work.
 * You can change the texts in the HTML file in between the opening and closing tags.
+* After you have deployed the files to Heroku and you changed some codes in the files, you will have to push the new version to heroku again.
+* DO:
+  * `git add .` > `git commit -m "Type something"` > `git push heroku master`. This should upload your changes to heroku
