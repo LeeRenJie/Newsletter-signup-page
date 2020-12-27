@@ -1,6 +1,6 @@
 # A Basic newsletter signup page that stores user's first name, last name and email into your Mail Chimp account. This project is based on the tutorial by Angela Yu on Udemy.
 
-![Image of the Newsletter Signup Page](https://leerenjie.github.com/images/newsletter-page.png)
+![Image of the Newsletter Signup Page](https://github.com/LeeRenJie/Newsletter-signup-page/blob/main/newsletter-page.png)
 
 <b>Install:</b>
 * [Hyper Terminal as my main terminal](https://hyper.is/)
